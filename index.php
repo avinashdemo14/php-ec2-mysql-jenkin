@@ -35,7 +35,7 @@ $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
 <h2>Create User Jenkin</h2>
 <form method="post">
-    <input type="text" name="name" placeholder="Name" required>
+    <input type="text" name="name" placeholder="Names" required>
     <input type="email" name="email" placeholder="Email" required>
     <button type="submit" name="create">Add</button>
 </form>
